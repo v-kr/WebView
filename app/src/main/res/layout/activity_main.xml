@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="240dp"
+        android:weightSum="3"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/facebook"
+            android:id="@+id/facebook1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/instagram"
+            android:id="@+id/instagram1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/twitter"
+            android:id="@+id/twitter1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="240dp"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/youtube"
+            android:id="@+id/youtube1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/google"
+            android:id="@+id/google1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/gmail"
+            android:id="@+id/gmail1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/linkedin"
+            android:id="@+id/linkedin1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/yahoo"
+            android:id="@+id/yahoo1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:background="@drawable/whatsapp"
+            android:id="@+id/whatsapp1"/>
+
+    </LinearLayout>
+</LinearLayout>
